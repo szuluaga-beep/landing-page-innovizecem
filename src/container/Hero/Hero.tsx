@@ -1,11 +1,12 @@
 import BannerComponent from '@/components/Banner/BannerComponent'
 import NavBar from '@/components/header/NavBar'
 import React from 'react'
+import "./hero.css"
 
 const Hero = () => {
   return (
     <>
-      <section>
+      <section className='sectionHero' id='Hero'>
         <div>
           <NavBar/>
         </div>

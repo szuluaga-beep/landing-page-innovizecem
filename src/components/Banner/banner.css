@@ -1,24 +1,71 @@
-/*panatallas grandes*/
-@media (min-width: 1200px){
+.sectionBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.containerTextHero {
+    color: #ffffff;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerTextHero h1 {
+    font-size: 50px;
+}
+
+.containerTextHero p {
+    font-size: 16px;
+}
+
+.buttonsectionBanner {
+    color: #ffffff;
+    background-color: #9A03FF;
+    padding: 15px 80px;
+    border-radius: 5px;
+}
+
+/* Estilos específicos para teléfonos */
+@media screen and (max-width: 767px) {
+    .sectionBanner {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .containerTextHero {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .containerTextHero h1 {
+        font-size: 36px;
+    }
+    
+    .containerTextHero p {
+        font-size: 14px;
+    }
+    
+    .buttonsectionBanner {
+        padding: 15px 40px;
+        width: 80%;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    .image-hero-banner{
+        width: 250px;
+        height: 250px;
+    }
     
 }
 
-/* laptops y pc */
-@media (min-width: 992px) and (max-width: 1199px){
-
-}
-
-/* tablet */
-@media (min-width: 768px) and (max-width: 991px){
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     
-}
-
-/* celulares */
-@media (min-width: 576px) and (max-width: 767px){
-
-}
-
-/* celulares pequeños */
-@media (max-width: 575px){
-
 }

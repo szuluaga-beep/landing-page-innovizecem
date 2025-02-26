@@ -1,0 +1,119 @@
+.fondoCard{
+    width: 500px;
+    height: 500px;
+    background-image: url("../../../public/fondojobs.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImageWorkers{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: auto;
+}
+
+.containerIconWorkers{
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background-color: rgb(249, 249, 249, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+    bottom: 65px;
+    left: 26px;
+}
+
+.IconWorkers{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: -1px -1px 6.5px 5.5px #dddddd;
+    -moz-box-shadow: -1px -1px 6.5px 5.5px #dddddd;
+    box-shadow: -1px -1px 6.5px 5.5px #dddddd;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9A03FF;
+}
+
+.helloWorkers{
+    background-color: #9A03FF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    z-index: 4;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+
+.containerOpinionWorkers{
+    width: 400px;
+    height: auto;
+}
+
+.opinionWorkers {
+    font-size: 12px;
+}
+
+
+/* Estilos específicos para teléfonos */
+@media screen and (max-width: 767px) {
+    .fondoCard{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .containerImageWorkers{
+        width: 125px;
+    }
+
+    .image-worker{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .containerIconWorkers{
+        width: 53px;
+        height: 53px;
+        bottom: 35px;
+        left: 14px;
+    }
+    
+    .IconWorkers{
+        width: 33px;
+        height: 33px;
+    }
+    
+    .containerOpinionWorkers{
+        width: 250px;
+        height: auto;
+    }
+    
+    .opinionWorkers {
+        font-size: 9px;
+    }
+
+    .helloWorkers{
+        padding: 5px 15px;
+        top: 27px;
+        right: 36px;
+    }
+}
+
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    
+    
+}

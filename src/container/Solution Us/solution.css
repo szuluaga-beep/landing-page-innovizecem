@@ -1,24 +1,152 @@
-/*panatallas grandes*/
-@media (min-width: 1200px){
+.section-solution{
+    width: 100vw;
+    height: auto;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-title-solution{
+    text-align: center;
+
+}
+
+.article-card-solution{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+    overflow-y: hidden;
+    padding-top: 30px;
+}
+
+.article-card-solution::-webkit-scrollbar {
+    display: none;
+}
+  
+
+.card-solution{
+    width: 25%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.info-card-up{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+
+}
+
+.info-card-up i{
+    background-color: #9A03FF;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 50px 50px;
+    z-index: 1;
+    position: relative;
+    bottom: 30px;
+}
+
+.info-card-up h4{
+    width: 200px;
+    font-size: 14px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.info-card-up p{
+    width: 200px;
+    font-size: 14px;
+}
+
+/* acordion */
+
+.details-benefics{
+    width: 100%;
+    height: auto;
+}
+
+.details-summary-benefics{
+    color: #9A03FF;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+    user-select: none;
+}
+
+.info-card-down{
+    background-color: #9A03FF;
+    padding: 30px;
+    border-radius: 0px 0px 20px 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.info-card-down a{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    color: #9A03FF;
+    font-weight: bold;
+}
+
+
+/* Estilos específicos para teléfonos */
+@media screen and (max-width: 767px) {
+    .section-solution{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+    }
+
+    .article-card-solution{
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        overflow-y: hidden;
+    }
     
-}
-
-/* laptops y pc */
-@media (min-width: 992px) and (max-width: 1199px){
-
-}
-
-/* tablet */
-@media (min-width: 768px) and (max-width: 991px){
+    .article-card-solution::-webkit-scrollbar {
+        display: block;
+        height: 5px; 
+    }
     
+    .article-card-solution::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 4px;
+    }
+
+    .card-solution{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .info-card-up{
+        width: 250px;
+    }
+
 }
 
-/* celulares */
-@media (min-width: 576px) and (max-width: 767px){
-
-}
-
-/* celulares pequeños */
-@media (max-width: 575px){
-
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-solution{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -1,24 +1,26 @@
-/*panatallas grandes*/
-@media (min-width: 1200px){
-    
+.sectionHero{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../public/hero-bg.webp");
+    background-size: cover;
+    background-repeat: round;
 }
 
-/* laptops y pc */
-@media (min-width: 992px) and (max-width: 1199px){
 
+/* Estilos específicos para teléfonos */
+@media screen and (max-width: 767px) {
+    .sectionHero{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-/* tablet */
-@media (min-width: 768px) and (max-width: 991px){
-    
-}
-
-/* celulares */
-@media (min-width: 576px) and (max-width: 767px){
-
-}
-
-/* celulares pequeños */
-@media (max-width: 575px){
-
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .sectionHero{
+        display: flex;
+        flex-direction: column;
+    }
 }

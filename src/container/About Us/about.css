@@ -1,24 +1,81 @@
-/*panatallas grandes*/
-@media (min-width: 1200px){
+.sectionAbout{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 70px;
     
 }
 
-/* laptops y pc */
-@media (min-width: 992px) and (max-width: 1199px){
-
+.containerDescriptionAbout{
+    width: 374px;
+    height: auto;
 }
 
-/* tablet */
-@media (min-width: 768px) and (max-width: 991px){
+.containerDescriptionAbout h5{
+    font-size: 40px;
+}
+
+.containerDescriptionAbout p{
+    font-size: 16px;
+}
+
+
+/* Estilos específicos para teléfonos */
+@media screen and (max-width: 767px) {
+    .sectionAbout{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column-reverse;
+        position: inherit;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
     
+    .containerDescriptionAbout{
+        width: 100%;
+        padding: 0% 24%;
+    }
+    
+    .containerDescriptionAbout h5{
+        font-size: 25px;
+    }
+    
+    .containerDescriptionAbout p{
+        font-size: 14px;
+        font-size: 14px;
+        width: 210px;
+        height: 300px;
+    }
 }
 
-/* celulares */
-@media (min-width: 576px) and (max-width: 767px){
-
-}
-
-/* celulares pequeños */
-@media (max-width: 575px){
-
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .sectionAbout{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 70px;
+        
+    }
+    
+    .containerDescriptionAbout{
+        width: 374px;
+        height: auto;
+    }
+    
+    .containerDescriptionAbout h5{
+        font-size: 30px;
+    }
+    
+    .containerDescriptionAbout p{
+        font-size: 16px;
+    }
 }

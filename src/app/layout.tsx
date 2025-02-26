@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <script src="https://unpkg.com/@phosphor-icons/web@2.1.1" async ></script>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
         <Footer/>

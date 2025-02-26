@@ -1,24 +1,20 @@
-/*panatallas grandes*/
-@media (min-width: 1200px){
-    
+.section-portfolio{
+    width: 100vw;
+    height: 100vh;
 }
 
-/* laptops y pc */
-@media (min-width: 992px) and (max-width: 1199px){
-
+/* Estilos específicos para teléfonos */
+@media screen and (max-width: 767px) {
+    .section-portfolio{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-/* tablet */
-@media (min-width: 768px) and (max-width: 991px){
-    
-}
-
-/* celulares */
-@media (min-width: 576px) and (max-width: 767px){
-
-}
-
-/* celulares pequeños */
-@media (max-width: 575px){
-
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-portfolio{
+        display: flex;
+        flex-direction: column;
+    }
 }
