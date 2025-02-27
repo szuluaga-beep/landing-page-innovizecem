@@ -18,7 +18,7 @@ const Footer = () => {
               strategies in consulting, software development, and training to optimize business processes.</p>
             </div>
 
-            <div>
+            <div className='email-footer'>
               <p>carolaymeza.py@innovizecem.com</p>
             </div>
         </article> 

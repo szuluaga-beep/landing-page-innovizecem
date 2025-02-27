@@ -1,12 +1,11 @@
 .sectionAbout{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: relative;
-    bottom: 70px;
-    
+    bottom: 60px;
 }
 
 .containerDescriptionAbout{
@@ -27,13 +26,14 @@
 @media screen and (max-width: 767px) {
     .sectionAbout{
         width: 100vw;
-        height: 100vh;
+        height: auto;
         flex-direction: column-reverse;
         position: inherit;
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
+        margin: 60px 0px;
     }
     
     .containerDescriptionAbout{
@@ -46,8 +46,7 @@
     }
     
     .containerDescriptionAbout p{
-        font-size: 14px;
-        font-size: 14px;
+        font-size: .8em;
         width: 210px;
         height: 300px;
     }

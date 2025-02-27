@@ -1,6 +1,6 @@
 .container-contact{
     width: 100vw;
-    height: 50vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
 
 .card-contact{
     width: 80%;
-    height: 100%;
+    height: 300px;
     background-color: #9933cc;
     color: white;
     padding: 30px;
@@ -23,9 +23,9 @@
     display: flex;
     flex-direction: column;
     padding: 20px 0px 20px 20px;
-    width: auto;
-    height: 100%;
-    justify-content: space-between;
+    height: auto;
+    gap: 30px;
+    max-width: 450px;
 }
 
 .title-contact h3{
@@ -33,7 +33,7 @@
 }
 
 .description-contact p{
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6;
 }
 
@@ -43,6 +43,7 @@
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: 500;
+    font-size: 1em;
 }
 
 /* Estilos específicos para teléfonos */
@@ -57,10 +58,12 @@
     .card-contact{
         align-items: center;
         flex-direction: column;
+        width: 70%;
+        height: auto;
     }
 
     .title-contact h3{
-        font-size: 26px;
+        font-size: 1.3em;
     }
 
     .description-container-contact{
@@ -76,12 +79,12 @@
     }
 
     .image-contact{
-        width: 250px;
+        width: 150px;
         height: 250px;
     }
     
     .btn-contact{
-        font-size: 12px;
+        font-size: .5em;
     }
 }
 

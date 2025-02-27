@@ -1,5 +1,5 @@
-import BannerComponent from '@/components/Banner/BannerComponent'
-import NavBar from '@/components/header/NavBar'
+import BannerComponent from '../../components/Banner/BannerComponent'
+import NavBar from '../../components/header/NavBar'
 import React from 'react'
 import "./hero.css"
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import imagesContact from "../../../public/imagencontact.svg"
+import imagesContact from "../../../public/img-contact.webp"
 import "./contact.css"
 
 const Contact = () => {
@@ -21,7 +21,7 @@ const Contact = () => {
             </div>               
           </div>
           
-          <Image className="image-contact" src={imagesContact} alt="imagen de contacto" width={511} height={411}/>
+          <Image className="image-contact" src={imagesContact} alt="imagen de contacto" width={300} height={410}/>
          
         </main>
       </section>

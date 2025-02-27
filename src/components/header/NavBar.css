@@ -4,7 +4,7 @@
     justify-content: center;
     position: relative;
     z-index: 1;
-    top: 50%;
+    top: 50px;
     background-color: rgb(7, 7, 7, 0);
 }
 
@@ -37,6 +37,10 @@
 
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 768px) {
+
+    .header-container{
+        top: 30px;
+    }
 
     .hamburger {
         display: block; 

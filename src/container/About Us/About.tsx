@@ -1,4 +1,4 @@
-import CardAbout from '@/components/cardAbout/CardAbout'
+import CardAbout from '../../components/cardAbout/CardAbout'
 import React from 'react'
 import "./about.css"
 
