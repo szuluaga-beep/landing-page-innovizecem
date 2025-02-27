@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./footer.css"
 import Image from 'next/image';
-import imageFooter from "@/../public/logotipo_footer.png"
+import imageFooter from "../../../public/assets/logotipo_footer.png"
 
 import { InstagramLogo, LinkedinLogo, WhatsappLogo, FacebookLogo } from '@phosphor-icons/react/dist/ssr';
 

@@ -2,7 +2,7 @@
 import React from 'react'
 import "./portfolio.css"
 import Image from "next/image"
-import images from "../../../public/logotipo_footer.png"
+import images from "../../../public/assets/logotipo_footer.png"
 
 const Portfolio = () => {
   return (

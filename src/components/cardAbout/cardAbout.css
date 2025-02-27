@@ -1,7 +1,7 @@
 .fondoCard{
     width: 500px;
     height: 500px;
-    background-image: url("../../../public/fondojobs.svg");
+    background-image: url("../../../public/assets/fondojobs.svg");
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;

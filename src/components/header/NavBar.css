@@ -34,7 +34,6 @@
     display: flex;
 }
 
-
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 768px) {
 

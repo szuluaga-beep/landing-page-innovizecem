@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import imagesContact from "../../../public/img-contact.webp"
+import imagesContact from "../../../public/assets/img-contact.webp"
 import "./contact.css"
 
 const Contact = () => {

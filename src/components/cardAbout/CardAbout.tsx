@@ -2,7 +2,7 @@ import React from 'react'
 import './cardAbout.css'
 import Image from "next/image"
 import aboutData from "../../helpers/data/about.json"
-import ejemplophono from "../../../public/imageejemploworkers.svg"
+import ejemplophono from "../../../public/assets/imageejemploworkers.svg"
 import { Hand } from '@phosphor-icons/react/dist/ssr'
 
 interface opinion {
