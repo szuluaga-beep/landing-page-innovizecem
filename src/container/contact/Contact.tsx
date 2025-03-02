@@ -11,6 +11,7 @@ const Contact = () => {
   return (
     <>
       <section className='container-contact' id='Contact'>
+        <div className='curve-fondo-contact'></div>
         <main className='card-contact'>
           <div className='description-container-contact'>
             <div className='title-contact'>

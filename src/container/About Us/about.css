@@ -8,19 +8,6 @@
     bottom: 60px;
 }
 
-.sectionAbout::before{
-    content: "";
-    position: absolute;
-    top: 50%; 
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-image: url('../../../public/assets/fondo-about.webp');
-    background-size: cover; 
-    background-position: center;
-    opacity: .5;
-}
-
 .containerDescriptionAbout{
     width: 374px;
     height: auto;

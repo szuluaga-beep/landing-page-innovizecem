@@ -21,6 +21,7 @@ const Solution = () => {
   return (
     <>
       <section className="section-solution" id="solutions">
+        <div className="curve-fondo-solution"></div>
         <h2 className="section-title-solution">{t("title")}</h2>
         <article className="article-card-solution">
             {services.map((servicio: Servicio, index: number ) => (

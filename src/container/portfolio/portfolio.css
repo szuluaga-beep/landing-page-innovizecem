@@ -29,6 +29,11 @@
     margin: 0 20px;
     transition: .5s;
     cursor: pointer;
+    filter: grayscale(100%)
+}
+
+.img-ptf:hover{
+    filter: grayscale(0%);
 }
 
 .carrusel-ptf{

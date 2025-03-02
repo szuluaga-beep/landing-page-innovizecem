@@ -4,16 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(71,15,173);
-    background: linear-gradient(47deg, rgba(71,15,173,1) 7%, rgba(36,33,106,1) 18%, rgba(28,37,92,1) 77%, rgba(75,13,182,1) 100%);
+    flex-direction: column;
 }
 
-.container-contact::before{
-    content: "";
-    position: absolute;
-    top: 50%; 
-    left: 0;
-    width: 100%;
+.curve-fondo-contact{
+    background: rgb(28,37,92);
+background: linear-gradient(66deg, rgba(28,37,92,1) 76%, rgba(75,13,182,1) 97%);
+    width: 100vw;
     height: 50%;
 }
 
@@ -28,6 +25,9 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-direction: row;
     align-items: flex-end;
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
 }
 
 .description-container-contact{

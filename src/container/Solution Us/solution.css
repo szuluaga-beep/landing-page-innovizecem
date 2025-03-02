@@ -9,8 +9,15 @@
     background: linear-gradient(141deg, rgba(75,13,182,1) 9%, rgba(36,33,106,1) 30%, rgba(28,37,92,1) 62%, rgba(75,13,182,1) 91%);
 }
 
+.curve-fondo-solution{
+    width: 100vw;
+    height: 50%;
+    background-color: rgb(0, 55, 255);
+}
+
 .section-title-solution{
     text-align: center;
+    color: #FFFFFF;
 }
 
 .article-card-solution{
@@ -21,7 +28,7 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; 
     overflow-y: hidden;
-    padding-top: 30px;
+    padding-top: 30px
 }
 
 .article-card-solution::-webkit-scrollbar {
