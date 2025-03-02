@@ -1,0 +1,27 @@
+[
+    {
+        "id": "01",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1740763306/Innova%20Cem%20%28aliados%29/Photoroom_20250226_192830_heiben.png",
+        "name": "Yigal"
+    },
+    {
+        "id": "02",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1740763306/Innova%20Cem%20%28aliados%29/Vartal_png_xpg4b1.png",
+        "name": "Vartal"
+    },
+    {
+        "id": "03",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1740763306/Innova%20Cem%20%28aliados%29/Photoroom_20250226_192758_the9q0.png",
+        "name": "Custom"
+    },
+    {
+        "id": "04",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1740763306/Innova%20Cem%20%28aliados%29/Photoroom_20250226_200204_pmbhdv.png",
+        "name": "jch"
+    },
+    {
+        "id": "05",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1740763306/Innova%20Cem%20%28aliados%29/logo_jaz_png_1_nat90c.png",
+        "name": "jaz"
+    }
+]

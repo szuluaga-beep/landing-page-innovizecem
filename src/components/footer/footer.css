@@ -2,57 +2,58 @@
   width: 100vw;
   height: 50vh;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  font-size: 14px;
-  color: #1D265D;
-}
-
-.article-Footer{
-  width: auto;
-  height: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.description-Article{
-  width: 350px;
-}
-
-.items-Footer{
-  width: auto;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  padding-top: 60px;
-}
-
-.politic-docs-footer a{
-  padding-left: 10px;
   color: #1c255c;
+}
+
+/* article */
+
+.article-footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo-footer-ctn{
+  width: 400px;
+}
+
+.politic-docs-footer{
+  display: flex;
+  gap: 20px;
+}
+
+
+/* article */
+
+.main-footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0% 12%;
 }
 
 .items-footer-links{
   display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: flex-end;
-  gap: 4px;
+  gap: 20px;
 }
 
 .items-footer-links a{
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #1c255c;
   padding: 10px;
-  border-radius: 50% 50% ;
+  border-radius: 50px;
 }
+
+/* barra footer abajo */
 
 .down-footer{
   width: 100vw;
-  height: 10vh;
+  height: 50px;
   background-color: #1c255c;
   color: white;
   display: flex;
@@ -63,37 +64,30 @@
 
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {
-  .section-footer{
-      display: flex;
-      flex-direction: column;
-      font-size: 0.8em;
-      height: 100vh;
-      margin-top: 80px;
-  }
-
-  .article-Footer{
-    width: 100vw;
-    height: auto;
+  .article-footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 60px;
+    height: 50%;
+    font-size: 0.8em;
   }
 
-  .items-Footer{
-    width: auto;
-    height: 100%;
-    padding-top: 0px;
+  .main-footer{
+    padding: 0%;
+    flex-direction: column;
+    height: 24%;
+    font-size: 0.9em;
+
   }
 
-  .description-Article{
-    width: 180px;
+  .logo-footer-ctn{
+    width: 300px;
+    text-align: center;
   }
-
-  .items-footer-links {
-    justify-content: center;
-    gap: 6px;
-}
+  
+  .politic-docs-footer{
+    gap: 15px;
+  }
+  
 }
 
 /* Estilos específicos para tabletas */

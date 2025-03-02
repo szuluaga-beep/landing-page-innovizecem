@@ -2,20 +2,32 @@
 import React from 'react'
 import "./portfolio.css"
 import Image from "next/image"
-import images from "../../../public/assets/logotipo_footer.png"
+import dataimage from "../../data/portafolio.json"
+import { useTranslations } from 'next-intl'
+
+interface bussinelogo {
+  id: string,
+  image: string,
+  name: string
+}
 
 const Portfolio = () => {
+
+  const t = useTranslations("portfolio")
+
   return (
     <>
       <section className='section-portfolio' id='Portfolio'>
         <div className="container-description-ptf">
-          <h1 className="title-ptf">Portfolio</h1>
-          <p className='description-ptf'>We present a selection of our outstanding projects, illustrating the positive impact of our technological solutions on companies from various sectors.</p>
+          <h1 className="title-ptf">{t("title")}</h1>
+          <p className='description-ptf'>{t("subtile")}</p>
         </div>
         <div className='carrusel-ptf'>
-          <div className='logos-carrusel-ptf'>
-            <Image className="img-ptf" src={images} alt='empresas aliadas' width={150} height={150}/>
-          </div>
+          {dataimage.map((data: bussinelogo ) => (
+            <div className='logos-carrusel-ptf' key={data.id}>
+              <Image className="img-ptf" src={data.image} alt={data.name} width={110} height={100} loading='lazy'/>
+            </div>
+          ))}
         </div>
       </section>
     </>

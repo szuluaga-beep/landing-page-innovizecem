@@ -3,11 +3,9 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background-image: url("../../../public/hero-bg.webp"); */
-    /* background-size: cover;
-    background-repeat: round; */
+    background: rgb(75,13,182);
+    background: linear-gradient(141deg, rgba(75,13,182,1) 9%, rgba(36,33,106,1) 30%, rgba(28,37,92,1) 62%, rgba(75,13,182,1) 91%);
 }
-
 
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {

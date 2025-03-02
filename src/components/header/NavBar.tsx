@@ -26,7 +26,6 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ locales }) => {
     router.push(newPathname);  };
   return (
     <select value={currentLocale} onChange={handleChange} aria-label="Select language" className='select-language'>
-      <option key="a" value="a" disabled autoFocus>Language</option>
       <option key="es" value="es">Spanish</option>
       <option key="en" value="en">English</option>
     </select>
@@ -46,17 +45,17 @@ const NavBar = () => {
       <header className="header-container">
         <nav className="container-nav">
           <div className="logo">
-            <Image src={logoHeader} alt="logo" />
+            <Image src={logoHeader} alt="logo" loading='lazy'/>
           </div>
           <div className="hamburger" onClick={toggleMenu}>
             <List size={24} />
           </div>
           <div className={`items-header ${menuOpen ? "open" : ""}`}>
             <Link href="#Hero">{t("Home")}</Link>
-            <Link href="#About">about</Link>
-            <Link href="#solutions">solutions</Link>
-            <Link href="#Portfolio">portfolio</Link>
-            <Link href="#Contact">contact</Link>
+            <Link href="#About">{t("About")}</Link>
+            <Link href="#solutions">{t("Solutions")}</Link>
+            <Link href="#Portfolio">{t("Portfolio")}</Link>
+            <Link href="#Contact">{t("Contact")}</Link>
             <LanguageSelector locales={[]} />
           </div>
         </nav>

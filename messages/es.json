@@ -1,5 +1,82 @@
 {
-    "navbar": {
-      "Home": "Inicio"
-    }
+  "navbar": {
+    "Home": "Inicio",
+    "About": "Nosotros",
+    "Solutions": "Soluciones",
+    "Portfolio": "Portafolio",
+    "Contact": "Contacto"
+  },
+  "hero": {
+    "h1Text": "Impulsando la Transformación Digital",
+    "strongText": "Soluciones tecnológicas avanzadas para un futuro más eficiente.",
+    "pText": "En InnovizeCEM, somos líderes en innovación tecnológica, ofreciendo estrategias personalizadas en consultoría, desarrollo de software y capacitación para optimizar los procesos empresariales.",
+    "btn": "Descubre Nuestras Soluciones"
+  },
+  "about": {
+    "title": "Nosotros",
+    "descriptionAbout": "InnovizeCEM es un referente en innovación tecnológica. Nos especializamos en desarrollar soluciones personalizadas que combinan análisis avanzado, estrategias de transformación digital y tecnologías emergentes para potenciar el crecimiento de las empresas. Contamos con un equipo de expertos en innovación y tecnología con años de experiencia en proyectos de alto impacto.",
+    "worker": {
+      "opinion": "Visionaria y disruptiva, Carolay Meza lidera la transformación digital con empatía y creatividad, aprovechando la tecnología como puente hacia el progreso. Su misión va más allá de la innovación: se esfuerza por crear oportunidades reales para personas talentosas y decididas, demostrando que el crecimiento empresarial y el impacto social pueden ir de la mano. Con una mentalidad audaz y estratégica, impulsa soluciones que no sólo optimizan los negocios sino que también cambian vidas. Porque para ella, donde hay voluntad, hay un camino."
+    }, 
+    "hello": "¡Hola!"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "viewMore" : "Ver beneficios",
+    "benefitsTitle": "Beneficios",
+    "solution": [
+      {
+        "id": "01",
+        "icon": "ph ph-users",
+        "servicio": "Consultoria en Transformación Digital",
+        "descripcion": "Desarrollamos estrategias avanzadas para digitalizar procesos y optimizar operaciones empresariales apoyando la adopción de herramientas de vanguardia.",
+        "beneficios": [
+          "Rediseño integral de procesos hacia entornos digitales.",
+          "Incremento en la eficiencia y productividad organizacional."
+        ],
+        "enlaceName": "Más Información",
+        "enlace": "https://wa.me/+573104300153/"
+      },
+      {
+        "id": "02",
+        "icon": "ph ph-pencil-circle",
+        "servicio": "Diseño",
+        "descripcion": "Transmitimos mensajes visuales de manera efectiva. A través del uso de imágenes, tipografías, colores y composiciones, creando piezas que informan, persuaden y cautivan al público al cual va dirigido el mensaje.",
+        "beneficios": [
+          "Proyectar una imagen positiva profesional y coherente.",
+          "Destacar y conectar con tu público."
+        ],
+        "enlaceName": "Inscríbete Ahora",
+        "enlace": "https://wa.me/+573104300153/"
+      },
+      {
+        "id": "03",
+        "icon": "ph ph-polygon",
+        "servicio": "Desarrollo de Software a la medida",
+        "descripcion": "Creamos soluciones tecnológicas personalizadas que responden a las necesidades específicas de cada cliente, desde plataformas empresariales hasta aplicaciones móviles.",
+        "beneficios": [
+          "Escalabilidad adaptada al crecimiento del negocio.",
+          "Tecnología de alto rendimiento y fácil integración."
+        ],
+        "enlaceName": "Explorar Soluciones",
+        "enlace": "https://wa.me/+573104300153/"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "subtile": "Presentamos una selección de nuestros proyectos destacados, que ilustran el impacto positivo de nuestras soluciones tecnológicas en empresas de diversos sectores."
+  },
+  "contact": {
+    "title": "Conectaté con nosotros",
+    "textUp": "para revolucionar tu negocio con nuestras soluciones innovadoras. Juntos, impulsaremos tu transformación digital.",
+    "textDown": "Juntos, impulsaremos tu transformación digital.",
+    "btn": "¡Contactanos ahora!"
+  },
+  "footer": {
+    "textFooter": "Líderes en innovación tecnológica, ofreciendo estrategias personalizadas en consultoría, desarrollo de software y capacitación para optimizar los procesos empresariales.",
+    "terms": "Terminos",
+    "legal": "Avisos Legales",
+    "privacy": "Politica de privacidad"
+  }
 }

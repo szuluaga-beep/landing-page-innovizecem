@@ -1,5 +1,82 @@
 {
     "navbar": {
-      "Home": "Home"
+      "Home": "Home",
+      "About": "About Us",
+      "Solutions": "Solutions",
+      "Portfolio": "Portfolio",
+      "Contact": "Contact Us"
+    },
+    "hero": {
+      "h1Text": "Driving Digital Transformation",
+      "strongText": "Advanced technological solutions for a more efficient future.",
+      "pText": "At InnovizeCEM, we are leaders in technological innovation, offering customized strategies in consulting, software development, and training to optimize business processes.",
+      "btn": "Discover Our Solutions"
+    },
+    "about": {
+      "title": "About Us",
+      "descriptionAbout": "InnovizeCEM is a benchmark in technological innovation. We specialize in developing customized solutions that combine advanced analytics, digital transformation strategies, and emerging technologies to drive business growth. Our team of experts in innovation and technology has years of experience in high-impact projects.",
+      "worker": {
+        "opinion": "visionary and disruptive, Carolay Meza leads digital transformation with empathy and creativity, leveraging technology as a bridge to progress. Her mission goes beyond innovation—she strives to create real opportunities for talented and determined individuals, proving that business growth and social impact can go hand in hand. With a bold and strategic mindset, she drives solutions that not only optimize businesses but also change lives. Because for her, where there’s a will, there’s a way."
+      }, 
+      "hello": "Hello!"
+    },
+    "solutions": {
+      "title": "Solutions",
+      "viewMore" : "View Benefits",
+      "benefitsTitle": "Benefits",
+      "solution": [
+        {
+          "id": "01",
+          "icon": "ph ph-users",
+          "servicio": "Digital Transformation Consulting",
+          "descripcion": "We develop advanced strategies to digitize processes and optimize business operations, supporting the adoption of cutting-edge tools.",
+          "beneficios": [
+            "Comprehensive process redesign towards digital environments.",
+            "Increased efficiency and organizational productivity."
+          ],
+          "enlaceName": "More Information",
+          "enlace": "https://wa.me/+573104300153/"
+        },
+        {
+          "id": "02",
+          "icon": "ph ph-pencil-circle",
+          "servicio": "Design",
+          "descripcion": "We effectively convey visual messages. Through the use of images, typography, colors, and compositions, we create pieces that inform, persuade, and captivate the target audience.",
+          "beneficios": [
+            "Project a professional and coherent positive image.",
+            "Stand out and connect with your audience."
+          ],
+          "enlaceName": "Sign Up Now",
+          "enlace": "https://wa.me/+573104300153/"
+        },
+        {
+          "id": "03",
+          "icon": "ph ph-polygon",
+          "servicio": "Custom Software Development",
+          "descripcion": "We create personalized technological solutions that respond to the specific needs of each client, from business platforms to mobile applications.",
+          "beneficios": [
+            "Scalability adapted to business growth.",
+            "High-performance technology with easy integration."
+          ],
+          "enlaceName": "Explore Solutions",
+          "enlace": "https://wa.me/+573104300153/"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "subtile": "We present a selection of our outstanding projects, illustrating the positive impact of our technological solutions on companies from various sectors."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "textUp": "Connect with us to revolutionize your business with our innovative solutions.",
+      "textDown": "Together, we will drive your digital transformation.",
+      "btn": "Contact Now Us!"
+    },
+    "footer": {
+      "textFooter": "Leaders in technological innovation, offering customized strategies in consulting, software development, and training to optimize business processes.",
+      "terms": "Terms",
+      "legal": "Legal Notices",
+      "privacy": "Privacy Policy"
     }
 }

@@ -4,7 +4,7 @@
     justify-content: center;
     position: relative;
     z-index: 1;
-    top: 50px;
+    top: 30px;
     background-color: rgb(7, 7, 7, 0);
 }
 
@@ -32,6 +32,20 @@
   
 .itemsHeader {
     display: flex;
+}
+
+.select-language{
+    border: 1px solid #9A03FF;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.select-language option{
+    background-color: #d0a6ff;
+    color: #000000;
 }
 
 /* Estilos específicos para teléfonos */
@@ -68,5 +82,13 @@
         color: #FFFFFF;
         padding: 20px;
         font-weight: bold;
+    }
+
+
+    .select-language{
+        width: 124px;
+        height: 42px;
+        text-align: center;
+        margin-top: 26px;
     }
 }

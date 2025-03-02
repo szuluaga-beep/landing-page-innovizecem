@@ -1,8 +1,10 @@
 import CardAbout from '../../components/cardAbout/CardAbout'
 import React from 'react'
 import "./about.css"
+import { useTranslations } from 'next-intl';
 
 const About = () => {
+  const t = useTranslations("about");
   return (
     <>
       <section className='sectionAbout' id='About'>
@@ -10,9 +12,8 @@ const About = () => {
           <CardAbout/>
         </div>
         <div className='containerDescriptionAbout'>
-          <h5>About Us</h5>
-          <p>InnovizeCEM is a benchmark in technological innovation. <strong> We specialize in developing customized solutions that combine advanced analytics, digital transformation strategies, and emerging technologies to drive business growth. </strong> Our team of experts in innovation and technology has years of experience in high-impact projects.
-          </p>
+          <h5>{t("title")}</h5>
+          <p>{t('descriptionAbout')}</p>
         </div>
       </section>
     </>

@@ -1,6 +1,12 @@
 .section-portfolio{
     width: 100vw;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #ffffff;
+    background: rgb(75,13,182);
+    background: linear-gradient(239deg, rgba(75,13,182,1) 19%, rgba(36,33,106,1) 39%, rgba(28,37,92,1) 88%);
 }
 
 .container-description-ptf{
@@ -18,48 +24,44 @@
 }
 
 .img-ptf{
-    width: 150px;
+    width: 170px;
+    height: auto;
     margin: 0 20px;
     transition: .5s;
     cursor: pointer;
 }
 
-.img-ptf:not(:hover){
-    filter: grayscale(100%);
-}
-
 .carrusel-ptf{
-    position: relative;
     display: flex;
-    width: 100vw;
-    overflow: hidden;
-    margin-top: 20px;
-}
-
-.logos-carrusel-ptf{
-    white-space: nowrap;
-    animation: animate 60s linear infinite;
-}
-
-@keyframes animate{
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
-
-.carrusel-ptf:hover .logos-carrusel-ptf{
-    animation-play-state: paused;
-}
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
 
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {
     .section-portfolio{
         display: flex;
         flex-direction: column;
-        height: 60vh;
+    }
+
+    .img-ptf{
+        width: 170px;
+        height: auto;
+        margin: 0 20px;
+    }
+    
+    .carrusel-ptf{
+        display: flex;
+        overflow: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    
+    .logos-carrusel-ptf{
+        white-space: nowrap;
     }
 }
 

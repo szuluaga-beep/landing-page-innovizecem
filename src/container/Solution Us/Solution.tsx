@@ -1,6 +1,7 @@
+"use client"
 import React from "react";
 import "./solution.css";
-import serviciosData from "../../helpers/data/solution.json";
+import { useTranslations } from "next-intl";
 
 interface Servicio {
   id: string;
@@ -13,14 +14,17 @@ interface Servicio {
 }
 
 const Solution = () => {
-  
+ 
+  const t = useTranslations("solutions" );
+  const services = t.raw("solution") as Servicio[]
+
   return (
     <>
       <section className="section-solution" id="solutions">
-        <h2 className="section-title-solution">Solution Us</h2>
+        <h2 className="section-title-solution">{t("title")}</h2>
         <article className="article-card-solution">
-            {serviciosData.map((servicio: Servicio ) => (
-                <main className="card-solution" key={servicio.id}>
+            {services.map((servicio: Servicio, index: number ) => (
+                <main className="card-solution" key={index}>
                   <div className="info-card-up">
                     <i className={servicio.icon}></i>
                     <h4>{servicio.servicio}</h4>
@@ -28,10 +32,10 @@ const Solution = () => {
                   </div>
                   <details className="details-benefics">
                     <summary className="details-summary-benefics">
-                      Ver Beneficios
+                      {t("viewMore")}
                     </summary>
                     <div className="info-card-down">
-                      <h3>Benefics</h3>
+                      <h3>{t("benefitsTitle")}</h3>
                       <ul>
                         {servicio.beneficios.map((beneficio, i) => (
                           <li key={i}>{beneficio}</li>
@@ -41,9 +45,7 @@ const Solution = () => {
                     </div>
                   </details>
                 </main>
-        
             ))}
-   
         </article>
       </section>
     </>
