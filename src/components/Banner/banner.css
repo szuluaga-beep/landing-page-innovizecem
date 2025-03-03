@@ -30,6 +30,22 @@
     border-radius: 5px;
 }
 
+.image-hero-banner{
+    animation: Hero_flotar__FiSaM 3s ease-in-out infinite;
+}
+
+@keyframes Hero_flotar__FiSaM {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {
     .sectionBanner {
