@@ -3,7 +3,7 @@
     "Home": "Inicio",
     "About": "Nosotros",
     "Solutions": "Soluciones",
-    "Portfolio": "Portafolio",
+    "Portfolio": "Aliados",
     "Contact": "Contacto"
   },
   "hero": {
@@ -64,8 +64,8 @@
     ]
   },
   "portfolio": {
-    "title": "Portafolio",
-    "subtile": "Presentamos una selección de nuestros proyectos destacados, que ilustran el impacto positivo de nuestras soluciones tecnológicas en empresas de diversos sectores."
+    "title": "Aliados",
+    "subtile": "Presentamos una selección de nuestros valiosos aliados, ilustrando el impacto colaborativo de nuestras soluciones tecnológicas en diversos sectores."
   },
   "contact": {
     "title": "Conectaté con nosotros",

@@ -95,7 +95,8 @@ background: linear-gradient(66deg, rgba(28,37,92,1) 76%, rgba(75,13,182,1) 97%);
     }
     
     .btn-contact{
-        font-size: .8em;
+        font-size: .6em;
+        padding: 10px 15px;
     }
 }
 

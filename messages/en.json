@@ -3,7 +3,7 @@
       "Home": "Home",
       "About": "About Us",
       "Solutions": "Solutions",
-      "Portfolio": "Portfolio",
+      "Portfolio": "Partners",
       "Contact": "Contact Us"
     },
     "hero": {
@@ -64,8 +64,8 @@
       ]
     },
     "portfolio": {
-      "title": "Portfolio",
-      "subtile": "We present a selection of our outstanding projects, illustrating the positive impact of our technological solutions on companies from various sectors."
+      "title": "Partners",
+      "subtile": "We present a selection of our valued partners, illustrating the collaborative impact of our technological solutions across diverse sectors."
     },
     "contact": {
       "title": "Contact Us",
