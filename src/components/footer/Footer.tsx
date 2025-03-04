@@ -32,16 +32,16 @@ const Footer = () => {
               <p>carolaymeza.py@innovizecem.com</p>
           </div>          
           <div className='items-footer-links'>
-            <a href="https://www.instagram.com/innovize_cem_?igsh=OGl1NjcwcHpkaGNh&amp;utm_source=qr" aria-label="enlace a instagram">
+            <a href="https://www.instagram.com/innovize_cem_?igsh=OGl1NjcwcHpkaGNh&amp;utm_source=qr" target='_blank' aria-label="enlace a instagram">
               <InstagramLogo size={18} weight="fill" />
             </a>
-            <a href="https://www.linkedin.com/company/innovize-cem" aria-label="enlace a linkedin">
+            <a href="https://www.linkedin.com/company/innovize-cem" target='_blank' aria-label="enlace a linkedin">
               <LinkedinLogo size={18} weight="fill" />
             </a>
-            <a href="https://wa.me/+573104300153/" aria-label="enlace a whatsapp">
+            <a href="https://wa.me/+573104300153/" target='_blank' aria-label="enlace a whatsapp">
               <WhatsappLogo size={18} weight="fill" />
             </a>
-            <a href="https://www.facebook.com/" aria-label="enlace a Facebook">
+            <a href="https://www.facebook.com/" target='_blank' aria-label="enlace a Facebook">
               <FacebookLogo size={18} weight="fill" />
             </a>
           </div>

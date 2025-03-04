@@ -47,6 +47,7 @@
   background-color: #1c255c;
   padding: 10px;
   border-radius: 50px;
+  display: flex;
 }
 
 /* barra footer abajo */
