@@ -10,6 +10,7 @@ interface workers {
   id: string;
   image: string;
   opinion: string;
+  position: string;
   workers: string;
 }
 
@@ -48,6 +49,10 @@ const CardAbout = () => {
                     <p className="helloWorkers">{t("hello")}</p>
                   </div>
                   <div className="containerOpinionWorkers">
+                    <div className="rol-name-ctn">
+                      <p className="name-workers">{workers.id} </p>
+                      <h6 className="rol"> {workers.position}</h6>
+                    </div>
                     <p className="opinionWorkers">{workers.opinion}</p>
                   </div>
                 </>

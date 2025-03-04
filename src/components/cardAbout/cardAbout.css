@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
-    position: relative;
+    
 }
 
 .containerImageWorkers{
@@ -81,6 +81,19 @@
     width: 28px;
     height: 28px; 
 }
+
+.rol-name-ctn{
+    display: flex;
+    align-items: baseline;
+}
+
+.rol{
+    background-color: #9A03FF;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 2px;
+}
+
 
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {
