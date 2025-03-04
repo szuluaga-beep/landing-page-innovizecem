@@ -14,7 +14,7 @@ interface Servicio {
 }
 
 const Solution = () => {
- 
+
   const t = useTranslations("solutions" );
   const services = t.raw("solution") as Servicio[]
 

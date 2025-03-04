@@ -15,9 +15,18 @@
   "about": {
     "title": "Nosotros",
     "descriptionAbout": "InnovizeCEM es un referente en innovación tecnológica. Nos especializamos en desarrollar soluciones personalizadas que combinan análisis avanzado, estrategias de transformación digital y tecnologías emergentes para potenciar el crecimiento de las empresas. Contamos con un equipo de expertos en innovación y tecnología con años de experiencia en proyectos de alto impacto.",
-    "worker": {
-      "opinion": "Visionaria y disruptiva, Carolay Meza lidera la transformación digital con empatía y creatividad, aprovechando la tecnología como puente hacia el progreso. Su misión va más allá de la innovación: se esfuerza por crear oportunidades reales para personas talentosas y decididas, demostrando que el crecimiento empresarial y el impacto social pueden ir de la mano. Con una mentalidad audaz y estratégica, impulsa soluciones que no sólo optimizan los negocios sino que también cambian vidas. Porque para ella, donde hay voluntad, hay un camino."
-    }, 
+    "workersOpinion": [
+      {
+        "id": "Carolay Meza",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1741046923/Innova%20Cem%20%28aliados%29/team/t5o4s9cqldezo1mngiaf.webp",
+        "opinion": "Visionaria y disruptiva, Carolay Meza impulsa la transformación digital con empatía y creatividad. Usa la tecnología para innovar y generar oportunidades reales, demostrando que el crecimiento empresarial y el impacto social van de la mano. Con visión estratégica, crea soluciones que optimizan negocios y cambian vidas. Para ella, donde hay voluntad, hay camino"
+      },
+      {
+        "id": "Steven Zuluaga",
+        "image": "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1741046918/Innova%20Cem%20%28aliados%29/team/vmxskpn7vq7ms19xm9mj.webp",
+        "opinion": "Steven Zuluaga es un experto en tecnología con una pasión por enseñar y liderar con el ejemplo. Con +5 en el sector, no solo domina la transformación digital, sino que también guía a su equipo con conocimiento, paciencia y visión estratégica. Su enfoque práctico y colaborativo inspira a quienes lo rodean, fomentando una cultura de aprendizaje continuo y excelencia."
+      }
+    ], 
     "hello": "¡Hola!"
   },
   "solutions": {

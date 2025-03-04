@@ -3,6 +3,8 @@ import React from 'react'
 import "./about.css"
 import { useTranslations } from 'next-intl';
 
+
+
 const About = () => {
   const t = useTranslations("about");
   return (
