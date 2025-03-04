@@ -17,6 +17,7 @@
     align-items: center;
     width: 300px;
     height: auto;
+    padding-left: 50px;
 }
 
 .containerIconWorkers{
@@ -46,6 +47,7 @@
     align-items: center;
     justify-content: center;
     color: #9A03FF;
+    z-index: 5;
 }
 
 .helloWorkers{
@@ -82,24 +84,12 @@
     height: 28px; 
 }
 
-.rol-name-ctn{
-    display: flex;
-    align-items: baseline;
-}
-
-.rol{
-    background-color: #9A03FF;
-    color: #FFFFFF;
-    padding: 2px 8px;
-    border-radius: 2px;
-}
-
-
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {
     .fondoCard{
         width: 300px;
-        height: 300px;
+        height: 400px;
+        background-size: cover;
     }
     
     .containerImageWorkers{
@@ -121,6 +111,7 @@
     .IconWorkers{
         width: 33px;
         height: 33px;
+        font-size: 0.7em;
     }
     
     .containerOpinionWorkers{
@@ -136,13 +127,14 @@
         padding: 5px 15px;
         top: 27px;
         right: 36px;
+        font-size: 0.7em;
     }
     .carousel-control-prev {
-        left: -20px;
+        left: -45px;
     }
 
     .carousel-control-next {
-        right: -20px;
+        right: -45px;
     }
 }
 

@@ -28,6 +28,7 @@ const CardAbout = () => {
             touch={true}
             slide={true}
             indicators={false}
+            interval={null}
           >
             {people.map((workers: workers, index: number) => (
               <Carousel.Item key={index}>
@@ -46,13 +47,10 @@ const CardAbout = () => {
                       height={300}
                       loading="lazy"
                     />
-                    <p className="helloWorkers">{t("hello")}</p>
+                    <p className="helloWorkers">{workers.position}</p>
                   </div>
                   <div className="containerOpinionWorkers">
-                    <div className="rol-name-ctn">
-                      <p className="name-workers">{workers.id} </p>
-                      <h6 className="rol"> {workers.position}</h6>
-                    </div>
+                    <p className="name-workers"><strong>{workers.id}</strong></p>
                     <p className="opinionWorkers">{workers.opinion}</p>
                   </div>
                 </>
