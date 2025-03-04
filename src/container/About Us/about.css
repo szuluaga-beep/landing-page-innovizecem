@@ -6,7 +6,10 @@
     justify-content: space-evenly;
     position: relative;
     bottom: 60px;
-    
+    background-image: url("../../../public/assets/fondo-about.webp");
+    background-size: 100% 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .containerDescriptionAbout{

@@ -4,7 +4,7 @@ import "./cardAbout.css";
 import Image from "next/image";
 import { Hand } from "@phosphor-icons/react/dist/ssr";
 import { useTranslations } from "next-intl";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
 interface workers {
   id: string;
@@ -21,7 +21,13 @@ const CardAbout = () => {
     <>
       <article>
         <main className="fondoCard">
-        <Carousel variant="dark" pause="hover" touch={true} slide={true} indicators={false}>
+          <Carousel
+            variant="dark"
+            pause="hover"
+            touch={true}
+            slide={true}
+            indicators={false}
+          >
             {people.map((workers: workers, index: number) => (
               <Carousel.Item key={index}>
                 <>

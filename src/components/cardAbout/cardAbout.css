@@ -68,6 +68,19 @@
     font-size: 12px;
 }
 
+.carousel-control-prev {
+    left: -60px;
+}
+
+.carousel-control-next {
+    right: -60px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 28px;
+    height: 28px; 
+}
 
 /* Estilos específicos para teléfonos */
 @media screen and (max-width: 767px) {
@@ -110,6 +123,13 @@
         padding: 5px 15px;
         top: 27px;
         right: 36px;
+    }
+    .carousel-control-prev {
+        left: -20px;
+    }
+
+    .carousel-control-next {
+        right: -20px;
     }
 }
 
