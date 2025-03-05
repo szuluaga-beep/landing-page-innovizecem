@@ -41,9 +41,9 @@ const Footer = () => {
             <a href="https://wa.me/+573104300153/" target='_blank' aria-label="enlace a whatsapp">
               <WhatsappLogo size={18} weight="fill" />
             </a>
-            <a href="https://www.facebook.com/" target='_blank' aria-label="enlace a Facebook">
+            {/* <a href="https://www.facebook.com/" target='_blank' aria-label="enlace a Facebook">
               <FacebookLogo size={18} weight="fill" />
-            </a>
+            </a> */}
           </div>
         </div> 
       </footer>
