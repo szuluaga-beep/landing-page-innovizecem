@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
-import logoHeader from "../../../public/assets/logoheader.svg"
+import logoHeader from "../../../public/assets/logo-header.webp"
 import "./NavBar.css"
 import Link from "next/link"
 import { List } from '@phosphor-icons/react/dist/ssr';
@@ -45,7 +45,7 @@ const NavBar = () => {
       <header className="header-container">
         <nav className="container-nav">
           <div className="logo">
-            <Image src={logoHeader} alt="logo" loading='lazy'/>
+            <Image src={logoHeader} alt="logo" loading='lazy' width={160} height={60}/>
           </div>
           <div className="hamburger" onClick={toggleMenu}>
             <List size={24} />

@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./footer.css"
 import Image from 'next/image';
-import imageFooter from "../../../public/assets/logotipo_footer.png"
+import imageFooter from "../../../public/assets/logo-footer.webp"
 
 import { InstagramLogo, LinkedinLogo, WhatsappLogo, FacebookLogo } from '@phosphor-icons/react/dist/ssr';
 import { useTranslations } from 'next-intl';
@@ -17,7 +17,7 @@ const Footer = () => {
       <footer className='section-footer'>
         <div className='article-footer'>
             <div className='logo-footer-ctn'>
-              <Image src={imageFooter} alt="logo de innova cem sección footer" loading="lazy" width={211} height={71}/>
+              <Image src={imageFooter} alt="logo de innova cem sección footer" loading="lazy" width={180} height={85}/>
               <p className='description-Article'>{t("textFooter")}</p>
             </div>
             <div className='politic-docs-footer'>
