@@ -32,7 +32,7 @@ const Footer = () => {
               <p>carolaymeza.py@innovizecem.com</p>
           </div>          
           <div className='items-footer-links'>
-            <a href="https://www.instagram.com/innovize_cem_?igsh=OGl1NjcwcHpkaGNh&amp;utm_source=qr" target='_blank' aria-label="enlace a instagram">
+            <a href="https://www.instagram.com/innovize_cem_sas/" target='_blank' aria-label="enlace a instagram">
               <InstagramLogo size={18} weight="fill" />
             </a>
             <a href="https://www.linkedin.com/company/innovize-cem" target='_blank' aria-label="enlace a linkedin">
