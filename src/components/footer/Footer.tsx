@@ -4,7 +4,7 @@ import "./footer.css"
 import Image from 'next/image';
 import imageFooter from "../../../public/assets/logo-footer.webp"
 
-import { InstagramLogo, LinkedinLogo, WhatsappLogo, FacebookLogo } from '@phosphor-icons/react/dist/ssr';
+import { InstagramLogo, LinkedinLogo, WhatsappLogo } from '@phosphor-icons/react/dist/ssr';
 import { useTranslations } from 'next-intl';
 
 

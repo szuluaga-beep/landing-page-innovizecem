@@ -13,17 +13,18 @@ import {useTranslations} from 'next-intl';
 interface LanguageSelectorProps {
   locales: string[];
 }
-const LanguageSelector: React.FC<LanguageSelectorProps> = ({ locales }) => {
+const LanguageSelector: React.FC<LanguageSelectorProps> = ({ }) => {
 
   const router = useRouter();
   const currentLocale = useLocale();
   const pathname = usePathname();
 
-  const handleChange = (event: any) => {
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const newLocale = event.target.value;
     const newPathname = pathname.replace(`/${currentLocale}`, `/${newLocale}`);
     
-    router.push(newPathname);  };
+    router.push(newPathname);
+  };
   return (
     <select value={currentLocale} onChange={handleChange} aria-label="Select language" className='select-language'>
       <option key="es" value="es">Spanish</option>

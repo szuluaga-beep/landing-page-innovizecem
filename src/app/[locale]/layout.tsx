@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "../../components/footer/Footer";
 import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 
@@ -32,7 +32,7 @@ export default async function RootLayout({
 }>) {
 
   const {locale} = await params;
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes('en')) {
     notFound();
   }
   const messages = await getMessages();
