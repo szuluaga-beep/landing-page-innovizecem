@@ -1,94 +1,134 @@
-.header-container{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    top: 30px;
-    background-color: rgb(7, 7, 7, 0);
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .container-nav{
-    width: 85%;
-    height: 55px;
+    width: 92%;
+    max-width: 1200px;
+    background-color: rgb(154, 3, 255, 0.25);
+    border: 2px solid #9A03FF;
     border-radius: 10px;
-    border: 3px solid #9A03FF;
-    background-color: rgb(154, 3, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 4px 30px;
+    margin: 20px auto 0 auto;
 }
 
+.logo {
+    display: block;
+}
+
+.items-header {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .items-header a{
     color: #FFFFFF;
-    padding: 0px 25px 0px 0px;
+    font-family: "Raleway", sans-serif;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.items-header a:hover,
+.items-header a:focus {
+    background: #9A03FF;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(154, 3, 255, 0.15);
+    outline: none;
+}
+
+.select-language {
+    border: 1px solid #9A03FF;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(154, 3, 255, 0.10);
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin-left: 8px;
+    transition: border 0.2s, background 0.2s;
+    outline: none;
+}
+
+.select-language:focus {
+    border: 2px solid #fff;
+    background: #9A03FF;
+}
+
+.select-language option {
+    background-color: #d0a6ff;
+    color: #181818;
 }
 
 .hamburger {
     display: none;
     cursor: pointer;
-}
-  
-.itemsHeader {
-    display: flex;
-}
-
-.select-language{
-    border: 1px solid #9A03FF;
-    padding: 5px;
-    border-radius: 20px;
-    background-color: transparent;
-    color: white;
-    outline: none;
+    margin-left: 18px;
+    color: #fff;
+    transition: color 0.2s;
 }
 
-.select-language option{
-    background-color: #d0a6ff;
-    color: #000000;
+.hamburger:hover {
+    color: #d0a6ff;
 }
 
 /* Estilos específicos para teléfonos */
+@media screen and (max-width: 900px) {
+    .container-nav {
+        padding: 10px 16px;
+    }
+    .items-header {
+        gap: 18px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-
-    .header-container{
-        top: 30px;
+    .container-nav {
+        padding: 8px 20px;
     }
-
     .hamburger {
-        display: block; 
-        color: #FFFFFF;
+        display: block;
     }
-    
     .items-header {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 80px;
+        top: 100px;
         left: 0;
-        width: 100%;
-        background-color: white;
+        right: 0;
+        width: 92%;
+        background: rgba(28, 37, 92, 0.97);
         text-align: center;
-        border-radius: 10px;
-        border: 3px solid #9A03FF;
-        background-color: rgb(28, 37, 92, 0.9);
+        border-radius: 16px;
+        border: 2px solid #9A03FF;
+        z-index: 100;
+        padding: 24px 0 16px 0;
+        gap: 0;
+        margin: 0 auto;
     }
-    
     .items-header.open {
         display: flex;
     }
-    
-    .items-header a{
-        color: #FFFFFF;
-        padding: 20px;
-        font-weight: bold;
+    .items-header a {
+        color: #fff;
+        padding: 18px 0;
+        font-size: 1.15rem;
+        border-radius: 10px;
+        border-bottom: 1px solid rgba(154, 3, 255, 0.15);
+        width: 90%;
+        display: block;
     }
-
-
-    .select-language{
-        width: 124px;
-        height: 42px;
-        text-align: center;
-        margin-top: 26px;
+    .items-header a:last-child {
+        border-bottom: none;
+    }
+    .select-language {
+        width: 90%;
+        margin: 18px auto 0 auto;
+        display: block;
     }
 }

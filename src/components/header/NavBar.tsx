@@ -44,20 +44,20 @@ const NavBar = () => {
     <>
       <header className="header-container">
         <nav className="container-nav">
-          <div className="logo">
-            <Image src={logoHeader} alt="logo" loading='lazy' width={160} height={60}/>
-          </div>
+          <picture className="logo">
+            <Image src={logoHeader} alt="logo" loading='lazy' width={125}/>
+          </picture>
           <div className="hamburger" onClick={toggleMenu}>
             <List size={24} />
           </div>
-          <div className={`items-header ${menuOpen ? "open" : ""}`}>
+          <ul className={`items-header ${menuOpen ? "open" : ""}`}>
             <Link href="#Hero">{t("Home")}</Link>
             <Link href="#About">{t("About")}</Link>
             <Link href="#solutions">{t("Solutions")}</Link>
             <Link href="#Portfolio">{t("Portfolio")}</Link>
             <Link href="#Contact">{t("Contact")}</Link>
             <LanguageSelector locales={[]} />
-          </div>
+          </ul>
         </nav>
       </header>
     </>
