@@ -21,9 +21,9 @@ const Footer = () => {
               <p className='description-Article'>{t("textFooter")}</p>
             </div>
             <div className='politic-docs-footer'>
-              <a href="" aria-label="Terminos">{t("terms")}</a>
-              <a href="" aria-label="Avisos legales">{t("legal")}</a>
-              <a href="" aria-label="politica de privacidad">{t("privacy")}</a>
+              <a href="https://drive.google.com/file/d/1ROD2lieij08omtHY9qjTxensczjuzXXq/view?usp=drive_link" target='_blank' rel='noopener' aria-label="Terminos">{t("terms")}</a>
+              <a href="https://drive.google.com/file/d/1_9ZW1rjyqaiD0MPZE803R4z9z-M6ciAp/view?usp=drive_link" target='_blank' rel='noopener' aria-label="Avisos legales">{t("legal")}</a>
+              <a href="https://drive.google.com/file/d/1IbUozAXv9lIQzJhU75rCF4BkGZNtyhiS/view?usp=drive_link" target='_blank' rel='noopener' aria-label="politica de privacidad">{t("privacy")}</a>
             </div>
         </div> 
 
